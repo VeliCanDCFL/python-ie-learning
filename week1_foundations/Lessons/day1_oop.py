@@ -89,3 +89,36 @@ print(f"Aluminum Plate is profitable: {p2.is_profitable(0.45)}")
 
 print(p1)
 print(p2)
+
+
+class Product2:
+    
+    def __init__(self, name, production_cost, quantity):
+        self.name = name
+        self.production_cost = production_cost
+        self.quantity = quantity
+
+    @property
+    def total_cost(self):
+        return self.production_cost * self.quantity
+
+    @property
+    def category(self):
+        if self.total_cost > 5000:
+            return "High value"
+        elif self.total_cost > 1000:
+            return "Medium value"
+        else:
+            return "Low value"
+
+    def __str__(self):
+        return f"{self.name} | Total: ${self.total_cost} | Category: {self.category}"
+
+
+p3 = Product2("Steel Bolt", 2.5, 1000)
+p4 = Product2("Aluminum Plate", 15.0, 200)
+p5 = Product2("Titanium Rod", 80.0, 500)
+
+print(p3)
+print(p4)
+print(p5)
