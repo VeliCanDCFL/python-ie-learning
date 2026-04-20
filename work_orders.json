@@ -1,0 +1,23 @@
+[
+    {
+        "order_id": "WO001",
+        "product": "Steel Bolt",
+        "quantity": 500,
+        "priority": "high",
+        "completed": true
+    },
+    {
+        "order_id": "WO002",
+        "product": "Aluminum Plate",
+        "quantity": 200,
+        "priority": "normal",
+        "completed": false
+    },
+    {
+        "order_id": "WO003",
+        "product": "Titanium Rod",
+        "quantity": 50,
+        "priority": "urgent",
+        "completed": false
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "factory_name": "Istanbul Plant",
+    "capacity": 5000,
+    "departments": [
+        "Production",
+        "Quality",
+        "Logistics"
+    ],
+    "machines": [
+        {
+            "id": "M001",
+            "type": "CNC",
+            "speed": 1500
+        },
+        {
+            "id": "M002",
+            "type": "Conveyor",
+            "speed": 300
+        },
+        {
+            "id": "M003",
+            "type": "Robotic Arm",
+            "speed": 800
+        }
+    ]
+}

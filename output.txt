@@ -1,0 +1,6 @@
+Production Log
+Date: 2024-01-15
+Shift: Morning
+Units produced: 450
+Units produced: 380
+Shift: Evening
